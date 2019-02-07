@@ -1,0 +1,37 @@
+/*Style doc*/
+@import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono);
+body{
+    width:700px;
+    height:450px;
+    background-color: LIGHTSTEELBLUE;
+    background-size: auto;
+}
+h1{
+    text-align: center;
+    line-height: 200%;
+    font-size: 250%;
+    font-style: italic;
+    color: #283747;
+}
+h3{
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    color: WHITE;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    background: CHOCOLATE;
+    margin: 0 0 25px;
+    overflow: hidden;
+    padding: px;
+    border-radius: 35px 0px 35px 0px;
+    -moz-border-radius: 35px 0px 35px 0px;
+    -webkit-border-radius: 35px 0px 35px 0px;
+    border: 2px solid GOLD;
+}
+#contact{
+    list-style:none;
+}
+.icons{
+    width:18px;
+    height:15px;
+}
