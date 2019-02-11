@@ -1,15 +1,16 @@
 /*Style doc*/
-@import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono);
 body{
-    width:700px;
-    height:450px;
-    background-color: LIGHTSTEELBLUE;
-    background-size: auto;
+    background: url(fondo.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 h1{
     text-align: center;
     line-height: 200%;
     font-size: 250%;
+    font-weight:bold;
     font-style: italic;
     color: #283747;
 }
@@ -19,19 +20,38 @@ h3{
     font-size: 18px;
     font-weight: 400;
     text-align: center;
-    background: CHOCOLATE;
+    background: #0B1110;
     margin: 0 0 25px;
     overflow: hidden;
-    padding: px;
     border-radius: 35px 0px 35px 0px;
     -moz-border-radius: 35px 0px 35px 0px;
     -webkit-border-radius: 35px 0px 35px 0px;
-    border: 2px solid GOLD;
+    border: 2px solid GREY;
+}
+h4{
+    margin-left: 10px;
+    font-family:Courier;
+    font-weight: bold;
+}
+p{
+    margin-left: 18px;
+    font-family:Courier;
+    font-style:italic;
+    text-align:left;
 }
 #contact{
+    font-family: Verdana;
     list-style:none;
 }
+#content{
+    width: 800px;
+    margin: 0 auto;
+    background-color: LIGHTSTEELBLUE;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
 .icons{
-    width:18px;
+    width:15px;
     height:15px;
 }
