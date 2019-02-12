@@ -50,12 +50,12 @@ p{
     padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 10px;
+    padding-top: 5px;
 }
 .link{
     text-decoration:none;
 }
 .icons{
-    width:20px;
-    height:20px;
+    width: 19px;
+    height: 19px;
 }
