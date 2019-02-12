@@ -40,8 +40,11 @@ p{
     margin-left: 18px;
     text-align:left;
 }
+uL{
+  list-style: circle;
+}
 #contact{
-    list-style:none;
+    list-style: none;
 }
 #content{
     width: 800px;
